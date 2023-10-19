@@ -1,8 +1,8 @@
-import { ShoppingCart } from './entities/shopping-cart';
 import { Order } from './entities/order';
+import { Product } from './entities/product';
+import { ShoppingCart } from './entities/shopping-cart';
 import { Messaging } from './services/messaging';
 import { Persistency } from './services/persistency';
-import { Product } from './entities/product';
 
 const shoppingCart = new ShoppingCart();
 const messaging = new Messaging();
