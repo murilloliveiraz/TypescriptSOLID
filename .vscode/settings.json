@@ -1,8 +1,11 @@
 {
-    "editor.fontSize": 14,
-    "window.zoomLevel": 0,
-    "code-runner.executorMap": {
-      "typescript": "cls;npx ts-node --files --transpile-only",
-    },
-    "liveServer.settings.port": 5501
-  }
+  "editor.fontSize": 14,
+  "window.zoomLevel": 0,
+  "code-runner.executorMap": {
+    "typescript": "cls;npx ts-node --files --transpile-only",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+  "liveServer.settings.port": 5501
+}
